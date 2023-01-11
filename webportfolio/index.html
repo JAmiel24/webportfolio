@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My Portfolio Document</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="index.css">
+
+<style>
+    body {
+        font-family: 'Kanit', sans-serif;
+    }
+
+    </style>
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div id="header">
+		<div class="container">
+			<nav>
+				<img src="images/logohome.jpg" class="logo">
+				<ul>
+					<li><a href="#Home" target="_blank"target="_blank">Home</a></li>
+					<li><a href="#About" target="_blank"target="_blank">About</a></li>
+					<li><a href="#Services" target="_blank"target="_blank">Services</a></li>
+					<li><a href="#Portfolio" target="_blank"target="_blank">Portfolio</a></li>
+					<li><a href="#Contact" target="_blank"target="_blank">Contact</a></li>
+
+				</ul>
+			</nav>
+			<div class="header-text">
+				<p>My Final Examination for Web System</p>
+				<h1>Hi!, I'm <span>AmielSo</span></h1>
+				 <p>from CEU manila</p>
+
+</div>
+	<div id="about">
+		<div class="container">
+			<div class="row">
+				<div class="about-col-1">
+					<img src="images/User.jpg" height="50" width="80" alt="My user account"></div>
+				<div class="about-col-2">
+					<h1 class="sub-title">About Me</h1>
+					<p>Hello! I am Amiel, 25 years old and I am a BSIT student from Centro Escolor University.</p>
+
+				<div class="tab-titles">
+					<p class="tab-links active-link" onclick="opentab('skills')">Skills</p>	
+					<p class="tab-links" onclick="opentab('experience')">Experience</p>	
+					<p class="tab-links" onclick="opentab('education')">Education</p>
+				</div>
+				<div class="tab-contents active-tab" id="skills">
+					<ul>
+						<li><span>Example Criteria</span></li>
+						<p>Designing Website/App Interfaces</p> 
+						<li><span>Web Development<span></li>
+						<p>Web Application Development</p>
+						<li><span>App Development</span>	
+						<p>Game Maker website</p>
+					</ul>
+				</div>
+				<div class="tab-contents" id="experience">
+					<ul>
+						<li><span>First Year BSIT</span></li>
+						<p>2020</p>
+						<li><span>2nd Year BSIT <span></li>
+						<p>2021</p>
+						<li><span>3rd year BSIT</span>	
+						<p>2022 - Current</p>
+					</ul>
+				</div>
+				<div class="tab-contents" id="education">
+					<ul>
+						<li><span>Trainee</span></li>
+						<p>2015</p>
+						<li><span>Student/Working<span></li>
+						<p>2016-2017</p>
+						<li><span>AMA Vocational Graduate</span>	
+						<p>2019</p>
+					</ul>
+				</div>
+			</div>
+</div>
+	</div>
+	<div id="services">
+		<div class="container">
+			<h1 class="sub-title">My Services</h1>
+			<div class="services-list">
+				<div>
+					<i class="fa-solid fa-code"></i>
+				 <h2>Web Design</h2>
+				 <p>Designing website is such a bliss</p>
+				 <a href="#">Learn more</a>
+				</div>
+				<div>
+					<i class="fas fa-crop-alt"></i>
+				 <h2>Forum Design</h2>
+				 <p>Open Forum</p>
+				 <a href="#">Learn more</a>
+				</div>
+				<div>
+				 <i class="fab fa-app-store"></i>
+				 <h2>Game Design</h2>
+				 <p>Game graphics</p>
+				 <a href="#">Learn more</a>
+				</div>
+		</div>
+	</div>
+
+
+
+    <!-- portfolio section-->
+    <section id="portfolio">
+        <div class="container mt-3">
+            <h1 class="text-center">Portfolio</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        
+                        <div class="card-body">
+                            <h4 class="card-title">S01</h4>
+                            <div class="text-center">
+                                <a href="https://github.com/JAmiel24/batch135-s01" target="_blank" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+      
+                        <div class="card-body">
+                            <h4 class="card-title">S03</h4>
+                            <div class="text-center">
+                                <a href="https://github.com/JAmiel24/s03" target="_blank" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <div class="card-body">
+                            <h4 class="card-title">S04</h4>
+                            <div class="text-center">
+                                <a href="https://github.com/JAmiel24/s04" target="_blank" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <div class="card-body">
+                            <h4 class="card-title">S05</h4>
+                    
+                            <div class="text-center">
+                                <a href="https://github.com/JAmiel24/s05" target="_blank" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+          
+
+ 
+     <!-- contact section-->
+    <section id="contact">
+        <div class="container mt-3 contactContent">
+            <h1 class="text-center">Contact Me</h1>
+
+            <div class="row mt-4">
+                <div class="col-lg-6">
+                    <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
+                    <div style="max-width:100%;list-style:none; transition: none;overflow:hidden;width:500px;height:500px;"><div id="my-map-canvas" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Manila,+Metro+Manila,+Philippines&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="embedded-map-code" href="https://www.bootstrapskins.com/themes" id="authorize-map-data">premium bootstrap themes</a><style>#my-map-canvas img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}</style></div>
+
+                <div class="col-lg-6">
+                    <!-- form fields -->
+                    <form>
+                        <input type="text" class="form-control form-control-lg" placeholder="Name">
+                        <input type="email" class="form-control mt-3" placeholder="Email">
+                        <input type="text" class="form-control mt-3" placeholder="Subject">
+                        <div class="mb-3 mt-3">
+                            <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
+                        </div>
+                    </form>
+                    <button type="button" class="btn btn-success mt-3">Contact Me</button>
+                    
+                </div>
+
+            </div>
+        </div>
+    </section>
+</script>
+
+</body>
+</html>
